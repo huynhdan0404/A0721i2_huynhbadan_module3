@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3a0a14f-ac5d-4b62-bc5d-8fcc95de5c73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/chuyen_doi_tien_te/src/main/webapp/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thuc_hanh/tu_dien/src/main/webapp/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_9/thuc_hanh/chuyen_doi_tien_te/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_9/thuc_hanh/chuyen_doi_tien_te/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_9/thuc_hanh/chuyen_doi_tien_te/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_9/thuc_hanh/chuyen_doi_tien_te/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_9/thuc_hanh/chuyen_doi_tien_te/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_9/thuc_hanh/product_discount_calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_9/thuc_hanh/product_discount_calculator/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="23AJnbsGLDuDEf2ebPw9b7OJhvu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../module3/bai_10/bai_tap" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A0321I1-HuynhBaDan\module3.1\bai_10\bai_tap\hien_thi_danh_sach_khach_hang" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3a0a14f-ac5d-4b62-bc5d-8fcc95de5c73" name="Default Changelist" comment="" />
+      <created>1641171125336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641171125336</updated>
+      <workItem from="1641171126960" duration="76000" />
+      <workItem from="1641171264280" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="120" y="0" key="#Project_Structure" timestamp="1641171194876">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="120" y="0" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1641171194876" />
+    <state x="219" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1641171200304">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="219" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1641171200304" />
+    <state x="496" y="127" key="FileChooserDialogImpl" timestamp="1641171283679">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="496" y="127" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1641171283679" />
+  </component>
+</project>

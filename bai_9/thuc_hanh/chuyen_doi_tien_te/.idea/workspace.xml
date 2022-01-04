@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26be4507-7f3f-4ca6-b0cf-02c50967d950" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product_discount_calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_discount_calculator/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="23AHDuCgW12Ku13luxQAMN0kg1l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26be4507-7f3f-4ca6-b0cf-02c50967d950" name="Default Changelist" comment="" />
+      <created>1641169854035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641169854035</updated>
+      <workItem from="1641169859424" duration="132000" />
+      <workItem from="1641170058419" duration="66000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="127" key="FileChooserDialogImpl" timestamp="1641170105808">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="496" y="127" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1641170105808" />
+    <state x="36" y="0" key="new project wizard" timestamp="1641170126515">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="36" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1641170126515" />
+  </component>
+</project>
