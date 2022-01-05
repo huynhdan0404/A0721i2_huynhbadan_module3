@@ -28,9 +28,8 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     @Override
     public Product findById(int id) {
-        Integer temp = id;
-        for(Product product: productList) {
-            if(product.getId() == temp) {
+        for (Product product:productList){
+            if (product.getId()==id){
                 return product;
             }
         }
@@ -38,13 +37,23 @@ public class ProductRepositoryImpl implements ProductRepository {
     }
 
     @Override
-    public void update(int id, Product product) {
-
+    public void update(int id, String name,double price,String status) {
+        for (Product product:productList){
+            if (product.getId() == id){
+                product.setName(name);
+                product.setPrice(price);
+                product.setStatus(status);
+            }
+        }
     }
 
     @Override
     public void remove(int id) {
-
+        for (Product product:productList){
+            if (product.getId() == id){
+               productList.remove(product);
+            }
+        }
     }
 
     @Override

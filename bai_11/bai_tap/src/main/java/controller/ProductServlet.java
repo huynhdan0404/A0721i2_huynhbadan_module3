@@ -25,7 +25,34 @@ public class ProductServlet extends HttpServlet {
             case "create":
                 createProduct(request, response);
                 break;
+            case "edit":
+                editProduct(request,response);
+                break;
+            case "delete":
+                deleteProduct(request,response);
+                break;
+
         }
+    }
+
+    private void deleteProduct(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        productService.remove(id);
+        List<Product> productList =  productService.findAll();
+        request.setAttribute("productList",productList);
+        request.getRequestDispatcher("/product/list.jsp").forward(request,response);
+    }
+
+
+    private void editProduct(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        String name = request.getParameter("name");
+        double price = Double.parseDouble(request.getParameter("price"));
+        String status = request.getParameter("status");
+        productService.update(id,name,price,status);
+        List<Product> productList =  productService.findAll();
+        request.setAttribute("productList",productList);
+        request.getRequestDispatcher("/product/list.jsp").forward(request,response);
     }
 
     private void createProduct(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -34,16 +61,10 @@ public class ProductServlet extends HttpServlet {
         double price = Double.parseDouble(request.getParameter("price"));
         String status = request.getParameter("status");
         Product product = new Product(id,name,price,status);
-
-        if (productService.createProduct(product)){
-            request.setAttribute("msg","thêm mới thành công");
-            List<Product> productList = productService.findAll();
-            request.setAttribute("productList",productList);
-            request.getRequestDispatcher("/product/list.jsp").forward(request,response);
-        }else {
-            request.setAttribute("msg","thêm mới thất bại");
-            response.sendRedirect("/product/create.jsp");
-        }
+        productService.createProduct(product);
+        List<Product> productList =  productService.findAll();
+        request.setAttribute("productList",productList);
+        request.getRequestDispatcher("/product/list.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -53,11 +74,31 @@ public class ProductServlet extends HttpServlet {
         }
         switch (action){
             case "create":
-
+                showCreateForm(request,response);
+                break;
+            case "edit":
+                showEditForm(request,response);
+                break;
+            case "delete":
+                showDeleteForm(request,response);
                 break;
             default:
                 showListProduct(request,response);
         }
+    }
+
+    private void showDeleteForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        Product product = productService.findById(id);
+        request.setAttribute("product",product);
+        request.getRequestDispatcher("/product/delete.jsp").forward(request,response);
+    }
+
+    private void showEditForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        Product product = productService.findById(id);
+        request.setAttribute("product",product);
+        request.getRequestDispatcher("/product/edit.jsp").forward(request,response);
     }
 
     private void showCreateForm(HttpServletRequest request, HttpServletResponse response) throws IOException {

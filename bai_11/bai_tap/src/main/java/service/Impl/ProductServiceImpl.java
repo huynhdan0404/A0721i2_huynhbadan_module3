@@ -16,7 +16,6 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public boolean save(Product product) {
-        productRepository.save(product);
         return false;
     }
 
@@ -26,24 +25,18 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public void update(int id, Product product) {
-
+    public void update(int id, String name, double price, String status) {
+        productRepository.update(id,name,price,status);
     }
 
     @Override
     public void remove(int id) {
-
+        productRepository.remove(id);
     }
 
     @Override
-    public boolean createProduct(Product product) {
-        Product product1 = findById(product.getId());
-        if(product!=null) {
-            return false;
-        } else {
-            productRepository.createProduct(product1);
-            return true;
-        }
+    public void createProduct(Product product) {
+       productRepository.createProduct(product);
     }
 
 

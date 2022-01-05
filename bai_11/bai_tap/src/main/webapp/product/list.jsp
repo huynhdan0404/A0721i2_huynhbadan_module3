@@ -36,10 +36,13 @@
             <td>${productList.name}</td>
             <td>${productList.price}</td>
             <td>${productList.status}</td>
-            <td><a href="">Edit</a></td>
-            <td><a href="">Delete</a></td>
+            <td><a href="/product?action=edit&id=${productList.id}">Edit</a></td>
+            <td><a href="/product?action=delete&id=${productList.id}">Delete</a></td>
         </tr>
     </c:forEach>
 </table>
+<p>
+    ${msg}
+</p>
 </body>
 </html>
