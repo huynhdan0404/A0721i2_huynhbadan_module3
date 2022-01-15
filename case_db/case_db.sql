@@ -49,3 +49,13 @@ join customer on contract.customer_id = customer.id
 join customer_type on customer.customer_type_id = customer_type.id
 where customer_type.`name` = 'diamond' 
 and customer.address in ('vinh','da nang');
+
+-- 12
+select contract.id, customer.fullname, customer.phone, service.`name`, contract_detail.quantity
+from customer join contract on customer.id = contract.customer_id
+join service on contract.service_id = service.id
+join contract_detail on contract.id = contract_detail.contract_id
+where
+
+ contract.start_date between '2020-09-01' and '2020-12-30' and
+contract.start_date not between '2021-01-01' and '2020-06-30';
